@@ -93,8 +93,8 @@ StartupEvents.registry('item', event => {
 ItemEvents.modification(event => {
   event.modify("minecraft:diamond", item => { item.rarity = "more_rarities:legendary" })
 })
-
 ```
+
 ## Java
 ```java
 import com.chinaex123.more_rarities.utils.CustomRarity;
