@@ -1,0 +1,722 @@
+[
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_SCRAP",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "SCRAP"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_TRASH",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "TRASH"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_BROKEN",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "BROKEN"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_POOR",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "POOR"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_COMMON",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "COMMON"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_FINE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "FINE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_SUPERIOR",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "SUPERIOR"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_RARE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "RARE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_PRECIOUS",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "PRECIOUS"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_EPIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "EPIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_LEGENDARY",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "LEGENDARY"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ANCIENT",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ANCIENT"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_MYTHIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "MYTHIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_RELIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "RELIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_CURSED",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "CURSED"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DIVINE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DIVINE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_CHAOTIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "CHAOTIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_VOID",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "VOID"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_IMMORTAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "IMMORTAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_COSMIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "COSMIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ETERNAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ETERNAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_STELLAR",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "STELLAR"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_TRANSCENDENT",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "TRANSCENDENT"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DREAM",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DREAM"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_PRIMEVAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "PRIMEVAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_INFINITE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "INFINITE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_AWAKENED",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "AWAKENED"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_FINAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "FINAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_THEOCRATIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "THEOCRATIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ABSOLUTE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ABSOLUTE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_AURORA",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "AURORA"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_STARDUST",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "STARDUST"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ABYSSAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ABYSSAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_RESPLENDENT",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "RESPLENDENT"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ARCANE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ARCANE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DRACONIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DRACONIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_CELESTIAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "CELESTIAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ABYSS",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ABYSS"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_NIRVANA",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "NIRVANA"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ULTIMATE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ULTIMATE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_NIHIL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "NIHIL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_PRIMORDIAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "PRIMORDIAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_JUDGEMENT",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "JUDGEMENT"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ETERNAL_FLAME",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ETERNAL_FLAME"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_FRIGID",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "FRIGID"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_THUNDEROUS",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "THUNDEROUS"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_TELLURIAN",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "TELLURIAN"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_JADE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "JADE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_CRIMSON",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "CRIMSON"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_AZURE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "AZURE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_TWILIGHT",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "TWILIGHT"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DAWN",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DAWN"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_LUNAR",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "LUNAR"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_SOLAR",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "SOLAR"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_STARLIGHT",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "STARLIGHT"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DREAMWEAVER",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DREAMWEAVER"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_CHRONAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "CHRONAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_QUANTUM",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "QUANTUM"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_SINGULARITY",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "SINGULARITY"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_MULTIVERSAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "MULTIVERSAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_FLORAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "FLORAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_AURORAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "AURORAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DUSK",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DUSK"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_MORNING",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "MORNING"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_FAERIE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "FAERIE"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DEMONIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DEMONIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_ANGELIC",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "ANGELIC"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DRAGONLORD",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DRAGONLORD"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_PHOENIX",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "PHOENIX"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_GODKING",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "GODKING"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_TEMPORAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "TEMPORAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_SPATIAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "SPATIAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_DESTINY",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "DESTINY"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_KARMA",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "KARMA"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_SAMSARA",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "SAMSARA"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_LORD_VOID",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "LORD_VOID"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_LORD_CHAOS",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "LORD_CHAOS"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_LORD_ORDER",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "LORD_ORDER"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_LORD_ETERNAL",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "LORD_ETERNAL"
+    }
+  },
+  {
+    "enum": "net/minecraft/world/item/Rarity",
+    "name": "MORE_RARITIES_CREATIVE",
+    "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+    "parameters": {
+      "class": "com/chinaex123/more_rarities/utils/CustomRarity",
+      "field": "CREATIVE"
+    }
+  }
+]

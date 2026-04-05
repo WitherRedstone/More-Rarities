@@ -1,0 +1,13 @@
+{
+  "itemGroup.more_rarities": "Example Mod Tab",
+  "block.more_rarities.example_block": "Example Block",
+  "item.more_rarities.example_item": "Example Item",
+
+  "more_rarities.configuration.title": "More rarities Configs",
+  "more_rarities.configuration.section.more_rarities.common.toml": "More rarities Configs",
+  "more_rarities.configuration.section.more_rarities.common.toml.title": "More rarities Configs",
+  "more_rarities.configuration.items": "Item List",
+  "more_rarities.configuration.logDirtBlock": "Log Dirt Block",
+  "more_rarities.configuration.magicNumberIntroduction": "Magic Number Text",
+  "more_rarities.configuration.magicNumber": "Magic Number"
+}
