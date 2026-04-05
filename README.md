@@ -100,5 +100,5 @@ ItemEvents.modification(event => {
 import com.chinaex123.more_rarities.utils.CustomRarity;
 
 public static final DeferredItem<Item> TEST_1 = ITEMS.register("test_1", 
-        () -> new Item(new Item.Properties().rarity(CustomRarity.LEGENDARY.get())));
+        () -> new Item(new Item.Properties().rarity(CustomRarity.CREATIVE.getValue())));
 ```
